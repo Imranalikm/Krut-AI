@@ -175,8 +175,7 @@ const Contact = () => {
               </span>
             </h1>
             <p style={{ color: "white", fontWeight: "lighter" }}>
-              The high-performance short board — Tested in all conditions. The
-              only board with a tail lift for tight turning power.
+            We supercharge creators of all levels with an AI powered creative suite tailored for them.
             </p>
             <h2
               style={{
@@ -208,16 +207,18 @@ const Contact = () => {
                 21<sup>th</sup> April 2024
               </p>
             </div>
-            <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3 ">
-              <a href="">
+            
+          </div>
+          <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3  ">
+              <a href="https://discord.com/invite/BmaRqVPD">
                 {" "}
                 <FaDiscord className="icon" />{" "}
               </a>
-              <a href="">
+              <a href="https://x.com/krutAI_?t=jXEsIN-SWtldK_oak7WyZQ&s=09">
                 {" "}
                 <FaXTwitter className="icon" />{" "}
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/company/krut-ai/">
                 {" "}
                 <FaLinkedin className="icon" />{" "}
               </a>
@@ -226,7 +227,6 @@ const Contact = () => {
                 <FaInstagram className="icon" />{" "}
               </a>
             </div>
-          </div>
         </div>
         <div className="col-lg-5 col-sm-12" style={{ marginTop: "40px" }}>
           <div className="d-flex flex-column justify-content-center align-items-center vh-100">
@@ -336,24 +336,13 @@ const Contact = () => {
                 </div>
               </form>
             </div>
-            <div className="social-media-icons d-flex d-lg-none justify-content-center mt-4 gap-2">
-      <a href="">
-        <FaDiscord className="icon" />
-      </a>
-      <a href="">
-        <FaXTwitter className="icon" />
-      </a>
-      <a href="">
-        <FaLinkedin className="icon" />
-      </a>
-      <a href="">
-        <FaInstagram className="icon" />
-      </a>
+           
     </div>
           </div>
+          
         </div>
       </div>
-    </div>
+    
   );
 };
 

@@ -1,6 +1,8 @@
 .contact {
   background: url("../../assets/Images/contact_bg1.png"); 
   background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -53,8 +55,9 @@
 .social-media-icons{
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
-  margin-left: 15px;
+  margin-left: 40px;  
+  padding-top: 50px;
+  
 }
 
 .social-media-icons a{
