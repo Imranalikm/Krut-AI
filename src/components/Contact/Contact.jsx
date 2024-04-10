@@ -335,7 +335,7 @@ const Contact = () => {
                   )}
                 </div>
               </form>
-              <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3  ">
+              <div className="social-media-icons-mb d-flex col-lg-1 mt-5 gap-3  ">
               <a href="https://discord.com/invite/BmaRqVPD">
                 {" "}
                 <FaDiscord className="icon hide-on-lg" />{" "}
