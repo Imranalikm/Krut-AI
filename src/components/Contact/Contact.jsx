@@ -229,7 +229,7 @@ const Contact = () => {
           
         </div>
         <div className="col-lg-5 col-sm-12" >
-          <div className="d-flex flex-column justify-content-center align-items-center vh-100 " style={{marginTop:'90px'}}>
+          <div className="form d-flex flex-column justify-content-center align-items-center vh-100 " >
             <div>
               <form onSubmit={handleSubmit}>
                 <div className="mb-3 mt-3">
