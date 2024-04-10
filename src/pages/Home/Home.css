@@ -1,0 +1,30 @@
+.home-sec-one {
+  background: url("../../assets/Images/home-sec-one-bg.png");
+  height: 800px;
+  width: 100%;
+}
+
+.home-sec-one-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-sec-one-title h2 {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.sec1-button{
+    background-color: #01DDE9;
+    border-radius: 15px;
+}
+
+.home-sec-two{
+    background: url("../../assets/Images/home-sec-one-bg.png");
+    height: 800px;
+    width: 100%;
+}
