@@ -207,29 +207,29 @@ const Contact = () => {
                 21<sup>th</sup> April 2024
               </p>
             </div>
-            
-          </div>
-          <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3  ">
+            <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3  ">
               <a href="https://discord.com/invite/BmaRqVPD">
                 {" "}
-                <FaDiscord className="icon" />{" "}
+                <FaDiscord className="icon hide-on-mobile" />{" "}
               </a>
               <a href="https://x.com/krutAI_?t=jXEsIN-SWtldK_oak7WyZQ&s=09">
                 {" "}
-                <FaXTwitter className="icon" />{" "}
+                <FaXTwitter className="icon hide-on-mobile" />{" "}
               </a>
               <a href="https://www.linkedin.com/company/krut-ai/">
                 {" "}
-                <FaLinkedin className="icon" />{" "}
+                <FaLinkedin className="icon hide-on-mobile" />{" "}
               </a>
               <a href="">
                 {" "}
-                <FaInstagram className="icon" />{" "}
+                <FaInstagram className="icon hide-on-mobile" />{" "}
               </a>
             </div>
+          </div>
+          
         </div>
-        <div className="col-lg-5 col-sm-12" style={{ marginTop: "40px" }}>
-          <div className="d-flex flex-column justify-content-center align-items-center vh-100">
+        <div className="col-lg-5 col-sm-12" >
+          <div className="d-flex flex-column justify-content-center align-items-center vh-100 " style={{marginTop:'90px'}}>
             <div>
               <form onSubmit={handleSubmit}>
                 <div className="mb-3 mt-3">
@@ -329,12 +329,30 @@ const Contact = () => {
                     />
                     </button>
                   ) : (
-                    <button type="submit" className="button-getdemo">
+                    <button type="submit" className="button-getdemo pb-2 pt-2">
                       Book a Demo
                     </button>
                   )}
                 </div>
               </form>
+              <div className="social-media-icons d-flex col-lg-1 mt-5 gap-3  ">
+              <a href="https://discord.com/invite/BmaRqVPD">
+                {" "}
+                <FaDiscord className="icon hide-on-lg" />{" "}
+              </a>
+              <a href="https://x.com/krutAI_?t=jXEsIN-SWtldK_oak7WyZQ&s=09">
+                {" "}
+                <FaXTwitter className="icon hide-on-lg" />{" "}
+              </a>
+              <a href="https://www.linkedin.com/company/krut-ai/">
+                {" "}
+                <FaLinkedin className="icon hide-on-lg" />{" "}
+              </a>
+              <a href="">
+                {" "}
+                <FaInstagram className="icon hide-on-lg" />{" "}
+              </a>
+            </div>
             </div>
            
     </div>
