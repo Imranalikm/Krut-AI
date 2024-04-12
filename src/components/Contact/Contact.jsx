@@ -7,6 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import Swal from "sweetalert2";
 import { ClipLoader } from "react-spinners";
 
+
 const Contact = () => {
   // State variables to store input values and validation status
   const [name, setName] = useState("");
@@ -167,42 +168,27 @@ const Contact = () => {
       </div>
       <div className="row d-lg-flex d-sm-block" >
         <div className="col-lg-7 col-sm-12" style={{ marginTop: "110px" }}>
-          <div style={{ marginLeft: "53px" }}>
-            <h1 style={{ color: "white", fontSize: "3.5rem" }}>
+          <div className="title " >
+            <h1>
               Introducing The{" "}
-              <span style={{ color: "#01DDE9", fontWeight: "bold" }}>
+              <span >
                 Krut AI
               </span>
             </h1>
-            <p style={{ color: "white", fontWeight: "lighter" }}>
+            <p >
             We supercharge creators of all levels with an AI powered creative suite tailored for them.
             </p>
-            <h2
-              style={{
-                color: "white",
-                fontSize: "5.7rem",
-                fontWeight: "bold",
-                marginBottom: "-28px",
-              }}
+            <h2 className="title-2" 
+             
             >
               Website
             </h2>
             <h2
-              style={{ color: "white", fontSize: "5.7rem", fontWeight: "bold" }}
             >
               Coming <span style={{ color: "#01DDE9" }}>Soon!</span>
             </h2>
-            <div style={{ display: "flex", justifyContent: "flex-end" }}>
+            <div className="date" >
               <p
-                className="lead"
-                style={{
-                  fontSize: "1.4rem",
-                  color: "white",
-                  marginBottom: "0",
-                  fontWeight: "bold",
-                  marginRight: "120px",
-                  marginTop: "-15px",
-                }}
               >
                 21<sup>th</sup> April 2024
               </p>
